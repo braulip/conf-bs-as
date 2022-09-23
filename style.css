@@ -1,0 +1,176 @@
+/* NAVBAR */
+
+.navbar{
+    background-color: #353a40;
+}
+
+.nav-link{
+    color: #92969b;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #f7fafd;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: #f7fafd;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    justify-content: end;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 7.5rem;
+    justify-content: center;
+}
+
+.nav-shop{
+    color: #29a744;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: center;
+}
+
+/* SECTION IMG */
+
+.first__section{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(/src/img/ba1.jpg);
+    height: 95vh;
+    color: #f7fafd;
+    font-weight: 450;
+    padding: 7%;
+    text-align: end;
+    background-color: #13141496;
+    background-blend-mode: multiply;
+}
+
+
+.first__section__text{
+    width: 40rem;
+    font-size: 1.2rem;
+}
+
+.btn__fs1{
+    color: #f7fafd;
+}
+
+.btn__fs2{
+    background-color: #29a744;
+    border: none;
+}
+
+/* CARDS */
+
+.cards__section{
+    margin-top: 2rem;
+
+}
+
+.container__cards{
+    justify-content: space-around;
+}
+
+.cards__section__title{
+    text-align: center;
+}
+
+.card__tags{
+    margin: 1rem 0 0 1rem;
+}
+
+.btn__s{
+    font-size: 0.6rem;
+    padding: 0 0.2rem 0 0.2rem;
+    font-weight: 700;
+    border: none;
+}
+
+.card-body{
+    padding-top: 0;
+}
+
+.btn__js{
+    background-color:#fec107;
+    color: black;
+    
+}
+
+.btn__rc{
+    background-color: #16a2b8;
+}
+
+.btn__neg{
+    background-color: #6b747d;
+}
+
+.btn__st{
+    background-color: #da3543;
+}
+
+/* IMG TEXT */
+
+.big__img__text{
+    background-color: #353a40;
+    color: white;
+    padding-top: 1rem;
+
+}
+
+.card-body {
+    height: 100%;
+}
+
+/* FORM */
+
+.section__form{
+    margin-top: 2rem;
+}
+
+.form-floating>label{
+    color:#797c80;
+}
+
+.text__form{
+    color: #797c80;
+    font-size: .8rem;
+}
+
+.btn__form{
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer__nav{
+    background: rgb(18,55,68);
+    background: linear-gradient(90deg, rgba(18,55,68,1) 0%, rgba(29,82,113,1) 100%);
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+}
+
+.nav-link-footer{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    width: 5rem;
+}
+
+.ul__footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
