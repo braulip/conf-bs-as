@@ -47,7 +47,7 @@
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
-    background-image: url(/src/img/ba1.jpg);
+    background-image: url(..\src\img\ba1.jpg);
     height: 95vh;
     color: #f7fafd;
     font-weight: 450;
